@@ -1,0 +1,14 @@
+.warning{
+    background-color : #FFFFDC;
+    border-width: 1px;
+    border-style: solid;
+    border-color:  #FFBF00; 
+    border-radius: 10px;
+}
+.arroundMargin{
+    margin : 10px;
+}
+.liste{
+    margin : 10px;
+    list-style-type: square;
+}

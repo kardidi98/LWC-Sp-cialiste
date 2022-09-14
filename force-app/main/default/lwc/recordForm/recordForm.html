@@ -1,0 +1,15 @@
+<template>
+    <lightning-card title="Record Form Account Details">
+            <lightning-layout>
+                <lightning-layout-item>
+                    <lightning-record-form
+                        record-id={accountId}
+                        object-api-name="Account"
+                        fields={selectedAccountFields}
+                        columns="2"
+                        mode="view">
+                    </lightning-record-form>
+                </lightning-layout-item>
+            </lightning-layout>
+    </lightning-card>
+</template>
